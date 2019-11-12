@@ -1,0 +1,45 @@
+.bgColor{
+    background-color: #EF6C6C;
+}
+.centeredCss{
+    display: flex;
+    justify-content: center;
+}
+
+.spaceAroundCss{
+    display: flex;
+    justify-content: space-around;
+}
+.marginate40{
+    margin-top: 40px;
+}
+
+.marginate10{
+    margin-top: 18px;
+}
+
+.gradient {
+    width: 100%;
+    height: 76px;
+
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom, #ff6767, #f1e8e8);
+  }
+.gradient::after{
+    opacity: 0.45;
+}
+
+.spaceBetweenCss{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    border-radius: 12px;
+    margin-top: 20px;
+  background-color: #fbcbcb;
+}
+
+.tableCss{
+    border: none !important;
+}

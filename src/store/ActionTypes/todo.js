@@ -1,0 +1,30 @@
+/* Create todo actions */
+export const CREATE_TODO="CREATE_TODO";
+export const CREATE_TODO_START='CREATE_TODO_START';
+export const CREATE_TODO_SUCCESS='CREATE_TODO_SUCCESS';
+export const CREATE_TODO_FAILURE='CREATE_TODO_FAILURE';
+
+
+/* Update Todo Actions */
+export const UPDATE_TODO='UPDATE_TODO';
+export const UPDATE_TODO_START='UPDATE_TODO_START';
+export const UPDATE_TODO_SUCCESS='UPDATE_TODO_SUCCESS';
+export const UPDATE_TODO_FAILURE='UPDATE_TODO_FAILURE';
+
+
+/* Delete todo actions */
+export const DELETE_TODO='DELETE_TODO';
+export const DELETE_TODO_START='DELETE_TODO_START';
+export const DELETE_TODO_SUCCESS='DELETE_TODO_SUCCESS';
+export const DELETE_TODO_FAILURE='DELETE_TODO_FAILURE';
+
+/* Get all todos */
+export const GET_TODOS='GET_TODOS';
+export const GET_TODOS_START='GET_TODOS_START';
+export const GET_TODOS_SUCCESS='GET_TODOS_SUCCESS';
+export const GET_TODOS_FAILURE='GET_TODOS_FAILURE';
+
+
+/* Notifications */
+export const SUCCESS_NOTIFICATION='SUCCESS_NOTIFICATION';
+export const FAILURE_NOTIFICATION='FAILURE_NOTIFICATION';
