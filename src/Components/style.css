@@ -1,5 +1,5 @@
 .bgColor{
-    background-color: #EF6C6C;
+    background-image: none;
 }
 .centeredCss{
     display: flex;
@@ -23,7 +23,7 @@
     height: 76px;
 
     border-radius: 12px;
-    background-image: linear-gradient(to bottom, #ff6767, #f1e8e8);
+    background-image: linear-gradient(to bottom, #d158e061, #ff383885);
   }
 .gradient::after{
     opacity: 0.45;
@@ -36,10 +36,27 @@
 
 .content{
     border-radius: 12px;
-    margin-top: 20px;
-  background-color: #fbcbcb;
+    margin-top: 40px;
+  background-color: #e316fb75;
+}
+
+td{
+    color: white;
+}
+
+th{
+    color: white;
+}
+p{
+    color: white;
 }
 
 .tableCss{
     border: none !important;
+}
+
+html, body{
+    overflow: auto;
+    background-image: linear-gradient(129deg, #1906c6 -24%, #9f0fac 105%);
+    background-attachment: fixed;
 }
